@@ -1,0 +1,154 @@
+h2 {
+  padding-top: .5em;
+}
+
+.body {
+  background-color: transparent;
+  background-image: url('../img/background-1.jpg');
+  background-position: 0px 0px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed !important;
+}
+
+#main-container {
+  background-color: #fff;
+  border-radius: 7px;
+  text-align: center;
+  max-width: 940px;
+  padding-right: 0;
+  padding-left: 0;
+  margin: 10vh auto 15px auto;
+  float: none;
+  padding: 35px 49px;
+  margin-bottom: 0;
+}
+
+.text-centered {
+  text-align: center;
+}
+
+.text-enlarged {
+  font-size: 1.2em;
+}
+
+.text-title {
+  padding-top: .4em;
+  /*padding-bottom: 1em;*/
+  font-weight: 600;
+}
+
+.text-notice {
+  padding-top: 44px;
+  padding-bottom: 44px;
+  color: #373d45;
+  font-size: 1.2em;
+  letter-spacing: 1px;
+}
+
+.text-terms {
+  padding-top: 40px;
+  color: #373d45;
+  font-size: .6em;
+  font-weight: 300;
+}
+
+.text-subtext {
+  padding-top: 1em;
+  padding-bottom: 1em;
+  color: #373d45;
+  font-family: Lato, sans-serif;
+  font-weight: lighter;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-form {
+  font-size: 1.5em;
+}
+
+.text-heavy {
+  font-weight: bold;
+  letter-spacing: 1px;
+  
+}
+
+.link-terms {
+  display: inline;
+  color: #505964;
+  letter-spacing: 1px;
+  text-decoration: none;
+}
+
+.link-terms.link-emphasized {
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+.section-legal {
+	width: 960px;
+	margin: 0 auto;
+	margin-top: 60px;
+	margin-bottom: 30px;
+	background-color: white;
+	border-radius: 15px;
+	padding: 60px;
+}
+
+.button-opt {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding: 1em 1em;
+    border-radius: 7px;
+    box-shadow: 0 1px 18px -5px #000;
+    font-family: Lato, sans-serif;
+    font-size: 1.3em;
+}
+
+.social-buttons {
+  margin: 1em;
+}
+
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 2em;
+  line-height: 2em; /* Vertically center the text there */
+  background-color: #f5f5f5;
+}
+
+.text_footer {
+  font-size: .4em;
+}
+
+/* ---------------------------------------------- */
+/*
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 30px;
+  line-height: 30px;
+  background-color: #050505;
+  font-size: .7em;
+  color: #0e0e0e;
+}
+*/
+
