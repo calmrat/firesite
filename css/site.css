@@ -9,6 +9,7 @@ h2 {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed !important;
+  line-height: 1;
 }
 
 #main-container {
@@ -57,7 +58,6 @@ h2 {
   padding-top: 1em;
   padding-bottom: 1em;
   color: #373d45;
-  font-family: Lato, sans-serif;
   font-weight: lighter;
 }
 
@@ -66,13 +66,21 @@ h2 {
 }
 
 .text-form {
-  font-size: 1.5em;
+  font-size: 1em;
 }
 
 .text-heavy {
   font-weight: bold;
   letter-spacing: 1px;
   
+}
+
+.text-small {
+  font-size: .5em;
+}
+
+.text-medium {
+  font-size: .75em;
 }
 
 .link-terms {
@@ -98,12 +106,18 @@ h2 {
 }
 
 .button-opt {
-    margin-top: 1em;
+    margin-top: 1em ;
     margin-bottom: 1em;
     padding: 1em 1em;
     border-radius: 7px;
     box-shadow: 0 1px 18px -5px #000;
-    font-family: Lato, sans-serif;
+    font-size: 1.3em;
+}
+
+.form-buy {
+    margin-top: 1em;
+    padding: 2em .5em 1em 3em;
+    border-radius: 7px;
     font-size: 1.3em;
 }
 
@@ -152,3 +166,8 @@ body {
 }
 */
 
+
+
+.progress {
+    margin-bottom: 2em;
+}
